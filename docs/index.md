@@ -6,6 +6,6 @@ I've started packaging, publishing, and documenting a huge portion of the code I
 
 ## [Human Learning](/ml4all_talk.md)
 
-Check out my lighting talk I gave at the #ML4ALL machine learning conference in portland
+Check out my lighting talk I gave at the #ML4ALL machine learning conference in Portland
 
 [read more...](/ml4all_talk.md)
