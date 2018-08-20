@@ -2,11 +2,14 @@
 
 While working on a port-turned-rebuild of a clients ancient financial services software I've developed a collection of reusable packages for enabling quick windows client development in WPF with a highly modular UI, reporting services, and asynchronous data access. While organizing and publishing these packages I've added a number of previous projects under the same `Kelson.Common` namespace.
 
+> Now I'm making my all my naive workarounds and abstractions 
+> available for public consumption!
+
 The public versions of these packages are far from being considered stable and until more complete documentation and guides are released they should be considered learning and protfolio material. 
 
 If you are interested in providing feedback or contributions to any of these packages please contact me on the discord server linked in the footer of [my website](https://www.kelsonball.com)
 
-## Kelson.Common.Async
+## 1. 'Then'
 
 The `Async` package contains two gems. The one I use most frequently is the `.Then` extension method. When using C#'s wonderful `async await` syntax in WPF applications it is very easy to deadlock when trying to wait for tasks to complete so that the results can be used to update the UI. The two solutions are to use `.ConfigureAwait` on every task (theoretically.. this didn't work well for me when I tried it), or to use `App.Current.Dispatcher.Invoke` which is a long and cringy reference to non configurable static state. 
 
@@ -17,6 +20,8 @@ Updating the UI after an asynchornous IO operation is now a delight, looking som
 client.GetThingAsync().Then(thing => UiProperty = thing.Value);
 ```
 
+## 2. The smol actor
+
 The second gem in the Async package is the cutest `Actor` implementation I can imagine. 
 
 ... it's a task. 
@@ -25,7 +30,7 @@ That's it.
 
 An "actor" is a paraell programming pattern where a single thread is given ownership of a mutable resource or asset. Since all operations on that mutable resource must occur within that single thread concurrent access is no longer possible. With my minimalist implementation it's possible to pass references to the mutable resource out of the actors context... so don't do that 😅
 
-Here is the entire code base for the Actor<T> type
+Here is the entire code base for my Actor<T> type
 
 ```cs
 public class Actor<T> where T : class
@@ -65,3 +70,5 @@ foreach (var value in some_list_of_values)
                 map.Add(t.Result.Key, t.Result.Value)));
 
 ```
+
+Remember to head over to [my website](https://www.kelsonball.com) to see what other projects I'm working on or to get in touch. 
