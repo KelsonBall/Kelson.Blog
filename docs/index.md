@@ -1,4 +1,4 @@
-## [Highlights from Kelson.Common](/kelson_common_packages.md)
+## [Highlights from Kelson.Common (1: Async)](/kelson_common_packages_async.md)
 
 Here is the first post in my series highlighting my favorite parts of my `Kelson.Common` packages.
 
