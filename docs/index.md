@@ -1,11 +1,11 @@
-## [Kelson.Common packages](/kelson_common_packages.md)
+## [Highlights from Kelson.Common](/kelson_common_packages.md)
 
-I've started packaging, publishing, and documenting a huge portion of the code I use in my private and commercial projects.
+Here is the first post in my series highlighting my favorite parts of my `Kelson.Common` packages.
 
-[read more...](/kelson_common_packages.md)
+[read more...](/kelson_common_packages_async.md)
 
 ## [Human Learning](/ml4all_talk.md)
 
 Check out my lighting talk I gave at the #ML4ALL machine learning conference in Portland
 
-[read more...](/ml4all_talk.md)
+[video link](https://youtu.be/h7pPi2ER7Is)
