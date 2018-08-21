@@ -123,7 +123,7 @@ local function GetPerson(string name) -> Person
         Name = name,
         Coins = 0,
         Pay = function(self)
-            self.Coins = self.Coins + 100
+            self.Coins = self.Coins + pay
         end,
         CanBuyABoat = function(self) -> bool
             return self.Coins > 1000000
