@@ -1,4 +1,12 @@
-## [Highlights from Kelson.Common (1: Async)](/kelson_common_packages_async.md)
+## [Regolith: Adding a type sytem to Lua (Part 1)](/regolith_type_sys.md)
+
+Lua is a delightful and simple language, but it suffers many of the scaling pains that JavaScript is now growing out of
+
+JavaScript : Lua :: TypeScript : ?Regolith?
+
+[read more...](/regolith_type_sys.md)
+
+## [Highlights from Kelson.Common (Part 1: Async)](/kelson_common_packages_async.md)
 
 Here is the first post in my series highlighting my favorite parts of my `Kelson.Common` packages.
 
