@@ -108,6 +108,7 @@ console.log(developer.CanBuyABoat());
 ```
 
 What I'm exploring implementing in Regolith however looks a little less like traditional classes and a little more like composible interfaces.
+
 ```lua
 type Person has
     string Name
@@ -142,6 +143,7 @@ This raises some questions about type enforecement and objects becoming invalid,
 An important aspect of a type system is how that system allows types to be composed and structured. Here are some examples of how Regolith types might be composed using type expressions.
 
 > Inheritence and composition
+
 ```lua
 type Moveable has 
     string Location
