@@ -1,3 +1,9 @@
+## [Embracing Async/Await in WPF](/async_await_wpf.md)
+
+Async/Await in WPF can be a pain, causing deadlocks and breaking the 'async stack.' Read how `Kelson.Common.Async` provides a solution that has worked well for me.
+
+[read more...](/async_await_wpf.md)
+
 ## [Regolith: Adding a type sytem to Lua (Part 1)](/regolith_type_sys.md)
 
 Lua is a delightful and simple language, but it suffers many of the scaling pains that JavaScript is now growing out of
