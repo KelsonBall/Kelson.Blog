@@ -1,0 +1,1 @@
+## [View on GitHub Pages](https://kelsonball.github.io/Kelson.Blog/)
