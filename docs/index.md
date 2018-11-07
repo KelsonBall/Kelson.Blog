@@ -1,3 +1,7 @@
+## [Highlights from Kelson.Common (Part 2: Events)](/kelson_common_packages_events.md)
+
+Using my own event bus implementation has been an empowering experience. Get an overview [here](/kelson_common_packages_events.md)
+
 ## [Embracing Async/Await in WPF](/async_await_wpf.md)
 
 Async/Await in WPF can be a pain, causing deadlocks and breaking the 'async stack.' Read how `Kelson.Common.Async` provides a solution that has worked well for me.

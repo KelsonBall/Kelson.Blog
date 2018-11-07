@@ -1,13 +1,12 @@
 # Highlights from the new Kelson.Common packages
 
-While working on a port-turned-rebuild of a clients ancient financial services software I've developed a collection of reusable packages for enabling quick windows client development in WPF with a highly modular UI, reporting services, and asynchronous data access. While organizing and publishing these packages I've added a number of previous projects under the same `Kelson.Common` namespace.
+While working on a port and extension of a clients legacy financial services software I've developed a collection of reusable packages for enabling quick windows client development in WPF with a highly modular UI, reporting services, and asynchronous data access. While organizing and publishing these packages I've added a number of previous projects under the same `Kelson.Common` namespace.
 
-> Now I'm making my all my naive workarounds and abstractions 
-> available for public consumption!
+The public versions of these packages should be considered "Work in Progress" until more complete documentation and guides are released.
 
-The public versions of these packages are far from being considered stable and until more complete documentation and guides are released they should be considered learning and protfolio material. 
+If you are interested in providing feedback or contributions to any of these packages please contact me on the discord server linked in the footer of [my website](https://www.kelsonball.com) or open an issue on the related projects [repository](https://github.com/KelsonBall/Kelson.Common.Async).
 
-If you are interested in providing feedback or contributions to any of these packages please contact me on the discord server linked in the footer of [my website](https://www.kelsonball.com)
+# Kelson.Common.Async
 
 ## 1. 'Then'
 
